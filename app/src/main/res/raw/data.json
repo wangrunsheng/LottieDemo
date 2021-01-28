@@ -1,0 +1,1774 @@
+{
+  "v": "5.5.7",
+  "fr": 60,
+  "ip": 0,
+  "op": 271,
+  "w": 128,
+  "h": 128,
+  "nm": "loading-home-final",
+  "ddd": 0,
+  "assets": [],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 4,
+      "nm": "door2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            59,
+            77.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            3,
+            13,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.34,
+                  0.34,
+                  0.34
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.66,
+                  0.66,
+                  0.66
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 45,
+              "s": [
+                0,
+                100,
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.34,
+                  0.34,
+                  0.34
+                ],
+                "y": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.66,
+                  0.66,
+                  0.66
+                ],
+                "y": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "t": 75,
+              "s": [
+                100,
+                100,
+                100
+              ]
+            },
+            {
+              "t": 105,
+              "s": [
+                0,
+                100,
+                100
+              ]
+            }
+          ],
+          "ix": 6,
+          "x": "var $bm_rt;\n$bm_rt = loopOut();"
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 34,
+          "nm": "操控",
+          "np": 6,
+          "mn": "ADBE FreePin3",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 7,
+              "nm": "人偶引擎",
+              "mn": "ADBE FreePin3 Puppet Engine",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "网格旋转调整",
+              "mn": "ADBE FreePin3 Auto Rotate Pins",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 20,
+                "ix": 2
+              }
+            },
+            {
+              "ty": 7,
+              "nm": "在透明背景上",
+              "mn": "ADBE FreePin3 On Transparent",
+              "ix": 3,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 3
+              }
+            },
+            {
+              "ty": 60,
+              "nm": "arap",
+              "np": 3,
+              "mn": "ADBE FreePin3 ARAP Group",
+              "ix": 4,
+              "en": 1,
+              "ef": [
+                {
+                  "ty": 6,
+                  "nm": "自动追踪形状",
+                  "mn": "ADBE FreePin3 Outlines",
+                  "ix": 1,
+                  "v": 0
+                },
+                {
+                  "ty": 1,
+                  "nm": "网格",
+                  "np": 2,
+                  "mn": "ADBE FreePin3 Mesh Group",
+                  "ix": 2,
+                  "en": 1,
+                  "ef": [
+                    {
+                      "nm": "网格 1",
+                      "np": 8,
+                      "mn": "ADBE FreePin3 Mesh Atom",
+                      "ix": 1,
+                      "en": 1,
+                      "ef": [
+                        {
+                          "ty": 6,
+                          "nm": "网格",
+                          "mn": "ADBE FreePin3 Mesh",
+                          "ix": 1,
+                          "v": 0
+                        },
+                        {
+                          "ty": 0,
+                          "nm": "三角形",
+                          "mn": "ADBE FreePin3 Mesh Tri Count",
+                          "ix": 2,
+                          "v": {
+                            "a": 0,
+                            "k": 50,
+                            "ix": 2
+                          }
+                        },
+                        {
+                          "ty": 0,
+                          "nm": "密度",
+                          "mn": "ADBE FreePin3 Mesh Tri Density",
+                          "ix": 3,
+                          "v": {
+                            "a": 0,
+                            "k": 10,
+                            "ix": 3
+                          }
+                        },
+                        {
+                          "ty": 0,
+                          "nm": "扩展",
+                          "mn": "ADBE FreePin3 Mesh Expansion",
+                          "ix": 4,
+                          "v": {
+                            "a": 0,
+                            "k": 3,
+                            "ix": 4
+                          }
+                        },
+                        {
+                          "nm": "变形",
+                          "np": 7,
+                          "mn": "ADBE FreePin3 PosPins",
+                          "ix": 5,
+                          "en": 1,
+                          "ef": [
+                            {
+                              "nm": "操控点 6",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 1,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 4,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      71,
+                                      78
+                                    ],
+                                    "ix": 4
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "nm": "操控点 5",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 2,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 5,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      59,
+                                      77.75
+                                    ],
+                                    "ix": 4
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "nm": "操控点 4",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 3,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 6,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      59.375,
+                                      86.625
+                                    ],
+                                    "ix": 4
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "nm": "操控点 3",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 4,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 7,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      70.625,
+                                      86.625
+                                    ],
+                                    "ix": 4
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "nm": "操控点 2",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 5,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 8,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 1,
+                                    "k": [
+                                      {
+                                        "i": {
+                                          "x": 0,
+                                          "y": 0
+                                        },
+                                        "o": {
+                                          "x": 0,
+                                          "y": 0
+                                        },
+                                        "t": 0,
+                                        "s": [
+                                          70.5,
+                                          76.5
+                                        ],
+                                        "to": [
+                                          0,
+                                          -1.333
+                                        ],
+                                        "ti": [
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      {
+                                        "i": {
+                                          "x": 0,
+                                          "y": 0
+                                        },
+                                        "o": {
+                                          "x": 0,
+                                          "y": 0
+                                        },
+                                        "t": 0,
+                                        "s": [
+                                          70.5,
+                                          68.5
+                                        ],
+                                        "to": [
+                                          0,
+                                          0
+                                        ],
+                                        "ti": [
+                                          0,
+                                          -1.333
+                                        ]
+                                      },
+                                      {
+                                        "t": null,
+                                        "s": [
+                                          70.5,
+                                          76.5
+                                        ]
+                                      }
+                                    ],
+                                    "ix": 4,
+                                    "x": "var $bm_rt;\n$bm_rt = loopOut();"
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "nm": "操控点 1",
+                              "np": 7,
+                              "mn": "ADBE FreePin3 PosPin Atom",
+                              "ix": 6,
+                              "en": 1,
+                              "ef": [
+                                {
+                                  "ty": 3,
+                                  "nm": "顶点位移",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Offset",
+                                  "ix": 1,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      0,
+                                      0
+                                    ],
+                                    "ix": 1
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "顶点索引",
+                                  "mn": "ADBE FreePin3 PosPin Vtx Index",
+                                  "ix": 2,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 9,
+                                    "ix": 2
+                                  }
+                                },
+                                {
+                                  "ty": 7,
+                                  "nm": "固定类型",
+                                  "mn": "ADBE FreePin3 PosPin Type",
+                                  "ix": 3,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 1,
+                                    "ix": 3
+                                  }
+                                },
+                                {
+                                  "ty": 3,
+                                  "nm": "位置",
+                                  "mn": "ADBE FreePin3 PosPin Position",
+                                  "ix": 4,
+                                  "v": {
+                                    "a": 0,
+                                    "k": [
+                                      59.375,
+                                      68.125
+                                    ],
+                                    "ix": 4
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "缩放",
+                                  "mn": "ADBE FreePin3 PosPin Scale",
+                                  "ix": 5,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 100,
+                                    "ix": 5
+                                  }
+                                },
+                                {
+                                  "ty": 0,
+                                  "nm": "旋转",
+                                  "mn": "ADBE FreePin3 PosPin Rotation",
+                                  "ix": 6,
+                                  "v": {
+                                    "a": 0,
+                                    "k": 0,
+                                    "ix": 6
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "nm": "重叠",
+                          "np": 1,
+                          "mn": "ADBE FreePin3 HghtPins",
+                          "ix": 6,
+                          "en": 1,
+                          "ef": []
+                        },
+                        {
+                          "nm": "硬度",
+                          "np": 1,
+                          "mn": "ADBE FreePin3 StarchPins",
+                          "ix": 7,
+                          "en": 1,
+                          "ef": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      6,
+                      10
+                    ],
+                    [
+                      -6,
+                      10
+                    ],
+                    [
+                      -6,
+                      -10
+                    ],
+                    [
+                      6,
+                      -10
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "路径 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004000000393,
+                  0.455000005984,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 2,
+              "bm": 0,
+              "nm": "描边 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.003921568859,
+                  0.454901963472,
+                  1,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "填充 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  9,
+                  13
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "变换"
+            }
+          ],
+          "nm": "组 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 210,
+      "st": 4,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 4,
+      "nm": "home",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            64.5,
+            64.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            30,
+            33,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      20,
+                      23
+                    ],
+                    [
+                      -20,
+                      23
+                    ],
+                    [
+                      -20,
+                      -9
+                    ],
+                    [
+                      0,
+                      -23
+                    ],
+                    [
+                      20,
+                      -9
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "路径 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "tm",
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.34
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.66
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      100
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 30,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 210,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 240,
+                    "s": [
+                      100
+                    ]
+                  }
+                ],
+                "ix": 1
+              },
+              "e": {
+                "a": 0,
+                "k": 100,
+                "ix": 2
+              },
+              "o": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.34
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.66
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 0,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 30,
+                    "s": [
+                      360
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 210,
+                    "s": [
+                      360
+                    ]
+                  },
+                  {
+                    "t": 240,
+                    "s": [
+                      0
+                    ]
+                  }
+                ],
+                "ix": 3
+              },
+              "m": 1,
+              "ix": 2,
+              "nm": "修剪路径 1",
+              "mn": "ADBE Vector Filter - Trim",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004000000393,
+                  0.455000005984,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 4,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 2,
+              "bm": 0,
+              "nm": "描边 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  30,
+                  33
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "变换"
+            }
+          ],
+          "nm": "组 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 274,
+      "st": 4,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 4,
+      "nm": "door1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            64.5,
+            77.5,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            9,
+            13,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ind": 0,
+              "ty": "sh",
+              "ix": 1,
+              "ks": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "o": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "v": [
+                    [
+                      6,
+                      10
+                    ],
+                    [
+                      -6,
+                      10
+                    ],
+                    [
+                      -6,
+                      -10
+                    ],
+                    [
+                      6,
+                      -10
+                    ]
+                  ],
+                  "c": true
+                },
+                "ix": 2
+              },
+              "nm": "路径 1",
+              "mn": "ADBE Vector Shape - Group",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.004000000393,
+                  0.455000005984,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 4,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 2,
+              "bm": 0,
+              "nm": "描边 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "tm",
+              "s": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.34
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.66
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 10,
+                    "s": [
+                      100
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 45,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 225,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "t": 255,
+                    "s": [
+                      100
+                    ]
+                  }
+                ],
+                "ix": 1
+              },
+              "e": {
+                "a": 0,
+                "k": 100,
+                "ix": 2
+              },
+              "o": {
+                "a": 1,
+                "k": [
+                  {
+                    "i": {
+                      "x": [
+                        0.34
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.66
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 10,
+                    "s": [
+                      0
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 45,
+                    "s": [
+                      360
+                    ]
+                  },
+                  {
+                    "i": {
+                      "x": [
+                        0.833
+                      ],
+                      "y": [
+                        1
+                      ]
+                    },
+                    "o": {
+                      "x": [
+                        0.167
+                      ],
+                      "y": [
+                        0
+                      ]
+                    },
+                    "t": 225,
+                    "s": [
+                      360
+                    ]
+                  },
+                  {
+                    "t": 255,
+                    "s": [
+                      0
+                    ]
+                  }
+                ],
+                "ix": 3
+              },
+              "m": 1,
+              "ix": 4,
+              "nm": "修剪路径 1",
+              "mn": "ADBE Vector Filter - Trim",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  9,
+                  13
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "变换"
+            }
+          ],
+          "nm": "组 1",
+          "np": 4,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 275,
+      "st": 4,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}

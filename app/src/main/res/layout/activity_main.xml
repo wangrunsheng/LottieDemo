@@ -55,6 +55,30 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/home_loading_lottie" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/data_lottie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_loading_title"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/data" />
+
+    <TextView
+        android:id="@+id/data_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Loading"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_margin="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/data_lottie" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
